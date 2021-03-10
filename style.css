@@ -5,6 +5,11 @@
     text-decoration: none;
 }
 
+.border_page{
+    width: auto;
+    overflow: hidden;
+}
+
 .header {
     width: 100%;
     height: 100px;
@@ -13,7 +18,7 @@
 }
 
 .innerHeader {
-    width: 1000px;
+    width: 900px;
     height: 100%;
     display: block;
     margin: 0 auto;
@@ -50,7 +55,7 @@
     width: 100%;
     height: 50px;
     display: block;
-    background-color: grey;
+    background-color: silver;
 }
 
 .innerTitle {
@@ -58,6 +63,12 @@
     height: 100%;
     display: block;
     margin: 0 auto;
+}
+
+.mvtches_edit_container {
+    height: 100%;
+    width: 50%;
+    padding: 5px;
 }
 
 .innerTitle h1 {
@@ -70,20 +81,79 @@
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.chapterTitleContainer {
+    height: 25x;
+    width: 100%;
+    display: block;
+    padding: 25px;
+    border: 10px;
+    outline: solid 5px black;
+    background-color: rgba(37, 37, 37, 0.664);
 
+}
+
+.innerChapterTitleContainer {
+    height: 100%;
+    width: 800px;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    outline: solid 5px black;
+    background-color:white;
+}
+
+#fix_image {
+    padding: 20px;
+}
+
+.innerChapterTitleContainer h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.innerChapterTitleContainer span {
+    font-weight: bold;
+    color: firebrick;
+}
+
+
+.paragraph_text_container {
+    height: 100%;
+    width: 50%;
+    display: block;
+    margin: auto;
+    height: relative;
+    padding: 3px;
+    outline: ridge 5px black;
+    background-color: white;
+}
+
+.paragraph_text_container p {
+    padding: 3px;
+    text-align: center;
+    font-size: 20px;
+}
 .center {
       display: block;
-      margin-left: auto;
-      margin-right: auto;
-      block-size: 200px;
-      border-image-repeat: round;
-  }
+      margin: auto;
+      width: 40%;
+      position: center;
+}
+
+.center img {
+    margin: auto;
+}
 
 .footer {
     width: 100%;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    background-color: #101010;
+    height: 100px;
+    display: block;
+    background-color: black;
+}
+
+.footer p {
+    text-align: center;
+    color: white;
+    padding: 50px;
 }
 
