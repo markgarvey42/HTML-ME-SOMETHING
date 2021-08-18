@@ -3,11 +3,15 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+
 }
 
 .border_page{
-    width: auto;
+    display: block;
     overflow: hidden;
+    width: 75%;
+    margin: 0 auto;
+    outline: solid 1000px slategrey;
 }
 
 .header {
@@ -99,11 +103,11 @@
     margin: auto;
     padding: 20px;
     outline: solid 5px black;
-    background-color:white;
+    background-color:silver;
 }
 
 #fix_image {
-    padding: 20px;
+    padding: 30px;
 }
 
 .innerChapterTitleContainer h2 {
@@ -146,7 +150,7 @@
 
 .footer {
     width: 100%;
-    height: 100px;
+    height: 90px;
     display: block;
     background-color: black;
 }
